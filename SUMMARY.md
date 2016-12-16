@@ -11,7 +11,7 @@
     * [路由器 Route](chapter-mvrc/路由器-route.md)
     * [控制器 Controller](chapter-mvrc/控制器-controller.md)
     * [视图 View](chapter-mvrc/视图-view.md)
-    * [数据库 Model](数据库-model.md)
+    * [数据库 Model](chapter-mvrc/数据库-model.md)
         * [示例](chapter-mvrc/chapter-model/示例.md)
         * [Model 文件](chapter-mvrc/chapter-model/model-文件.md)
         * [增删查改 CRUD](chapter-mvrc/chapter-model/增删查改-crud.md)
