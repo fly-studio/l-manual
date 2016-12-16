@@ -1,8 +1,8 @@
 # # 文件位置
 总路由表位于 
-
-	/project_name/app/Http/routes.php
-
+```
+/project_name/app/Http/routes.php
+```
 下文的路由均添加到本文件
 
 # # 路由规则
