@@ -9,4 +9,5 @@
     * [插件](插件.md)
 * [MVRC](mvrc.md)
     * [路由器 Route](路由器-route.md)
+    * [控制器 Controller](控制器-controller.md)
 
