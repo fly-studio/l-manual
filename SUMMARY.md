@@ -16,4 +16,5 @@
         * [Model 文件](chapter-mvrc/chapter-model/model-文件.md)
         * [增删查改 CRUD](chapter-mvrc/chapter-model/增删查改-crud.md)
         * [SQL 常规操作](chapter-mvrc/chapter-model/sql-常规操作.md)
+        * [数据集 Collection](chapter-mvrc/数据集-collection.md)
 
