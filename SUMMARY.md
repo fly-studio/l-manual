@@ -10,4 +10,5 @@
 * [MVRC](mvrc.md)
     * [路由器 Route](路由器-route.md)
     * [控制器 Controller](控制器-controller.md)
+    * [视图 View](视图-view.md)
 
