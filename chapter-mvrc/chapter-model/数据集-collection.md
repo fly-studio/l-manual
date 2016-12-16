@@ -1,8 +1,8 @@
-## ## 遍历数据
+# # 遍历数据
 Laravel的```Collection```继承于PHP的```ArrayAccess/Arrayable```等
 可以支持 foreach、each、array_walk 等数组遍历的方法
 
-## ## 数组处理
+# # 数组处理
 Collection拥有如下函数来处理数组
 - avg($key = NULL)、average($key = NULL)
 - collapse()
@@ -60,6 +60,6 @@ Collection拥有如下函数来处理数组
 
 <div class="alert alert-warning">注意：此处的first、get、take、count、max、min、groupBy等都是Collection操作函数，和上面的数据库操作函数毫无关系。能够使用数据库完成的操作，<b>千万不要</b>使用本处的函数，不然会大幅度增加内存的开销和程序的负担</div>
 
-## ## 导出数据
+# # 导出数据
 - toArray()、jsonSerialize()
 - toJson()
