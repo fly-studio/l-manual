@@ -20,6 +20,5 @@
         * [数据库关系 Relationship](chapter-mvrc/chapter-model/数据库关系-relationship.md)
             * [一对一 关系](chapter-mvrc/chapter-model/chapter-relationship/一对一关系.md)
             * [一对多 关系](chapter-mvrc/chapter-model/chapter-relationship/一对多关系.md)
-
-
+            * [多对多 关系](chapter-mvrc/chapter-model/多对多-关系.md)
 
