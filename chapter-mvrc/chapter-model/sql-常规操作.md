@@ -129,7 +129,7 @@ User::where('xx', 'xxx')->delete();
 
 ## ## 实际调用
 - Model中的 where、whereIn、orderBy、groupBy、join等方法，都是通过
-	<code>Illuminate\Database\Eloquent\Builder</code>
-	<code>Illuminate\Database\Query\Builder</code>
+	`Illuminate\Database\Eloquent\Builder`
+	`Illuminate\Database\Query\Builder`
 	来实现的。
 - Model中的find，create，destroy，update 都是封装的一些常规方法
