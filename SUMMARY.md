@@ -22,4 +22,5 @@
             * [一对多 关系](chapter-mvrc/chapter-model/chapter-relationship/一对多关系.md)
             * [多对多 关系](chapter-mvrc/chapter-model/chapter-relationship/多对多-关系.md)
             * [一 对 多 对 多 关系](chapter-mvrc/chapter-model/一-对-多-对-多-关系.md)
+            * [多态 一对多 关系](chapter-mvrc/chapter-model/多态-一对多-关系.md)
 
