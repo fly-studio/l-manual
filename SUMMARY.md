@@ -26,4 +26,6 @@
             * [多态 多对多 关系](chapter-mvrc/chapter-model/chapter-relationship/多态-多对多-关系.md)
             * [关系数据调用](chapter-mvrc/chapter-model/关系数据调用.md)
     * [中间件 MIDDLEWARE](chapter-mvrc/中间件-middleware.md)
+    * [架构思想](chapter-mvrc/架构思想.md)
+
 
