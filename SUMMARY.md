@@ -52,10 +52,39 @@
         * [消息管理](chapter-module/chapter-wechat/消息管理.md)
         * [用户管理](chapter-module/chapter-wechat/用户管理.md)
         * [OAuth2](chapter-module/chapter-wechat/oauth2.md)
+    * [媒体文件 Media](chapter-module/媒体文件-media.md)
+        * [二维码](chapter-module/chapter-media/qr.md)
+        * [Placeholder](chapter-module/chapter-media/placeholder.md)
+        * [FFMpeg](chapter-module/chapter-media/ffmpeg.md)
+    * [系统工具 Tools](chapter-module/系统工具-tools.md)
+        * [Artisan](chapter-module/chapter-tool/artisan.md)
+        * [管理员工具](chapter-module/chapter-tool/管理员工具.md)
 * [插件 Plugins](plugins.md)
 * [API](api.md)
     * [输入、输出 I/O](chapter-api/输入-输出-i-o.md)
     * [加密](chapter-api/加密.md)
     * [解密](chapter-api/解密.md)
 * [中文搜索引擎](elastic.md)
+* [函数库](function.md)
+    * [数组函数 ARRAY](chapter-function/数组函数-array.md)
+    * [字符串处理函数 TEXT](chapter-function/字符串处理函数-text.md)
+    * [文件操作函数 FILE](chapter-function/文件操作函数-file.md)
+    * [时间操作函数 TIME](chapter-function/时间操作函数-time.md)
+    * [数学函数 MATH](chapter-function/数学函数-math.md)
+    * [图片操作函数 IMAGE](chapter-function/图片操作函数-image.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
