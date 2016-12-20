@@ -40,6 +40,7 @@
         * [Ajax](chapter-feature/chapter-js/ajax.md)
         * [提示](chapter-feature/chapter-js/提示.md)
         * [DataTable](chapter-feature/chapter-js/datatable.md)
+        * [快速选择 Select](chapter-feature/chapter-js/select.md)
 * [模块](module.md)
     * [用户组、权限 Role](chapter-module/用户组-权限-role.md)
     * [附件 Attachment](chapter-module/附件-attachment.md)
