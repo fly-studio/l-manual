@@ -73,18 +73,3 @@
     * [数学函数 MATH](chapter-function/数学函数-math.md)
     * [图片操作函数 IMAGE](chapter-function/图片操作函数-image.md)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
