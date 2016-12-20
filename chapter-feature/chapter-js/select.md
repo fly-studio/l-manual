@@ -40,7 +40,7 @@
 
 	选中之后，显示在**文本框里面**的数据，可以和 data-text 不一样，可以写html
 
-	如果没有此字段，则和data-text展示的数据一样
+	如果没有此参数，则和data-text展示的数据一样
 
 - value="<{$_data.role_id}>"
 
@@ -50,6 +50,16 @@
 
 	> 注意：w3c规范中，select中并无此属性，此字段仅仅用于初始化时选中（selected="selected"）
 	
+- data-params="{&quot;q&quot;:{&quot;something&quot;:{&quot;lk&quot;:&quot;abc&quot;}}}"
+	
+	此参数可以不设置
+	
+	附加参数，表示在请求`data-model`时附加的字段，必须为标准的JSON格式：
+	
+	`{"q": {"something": {"lk": "abc"}, "order": {"updated_at": "desc"}  }`
+	
+	`"` 引号需要使用 `&quot;` 转义
+
 - data-placeholder=""
 	
 	用于select2的`placeholder`
@@ -61,24 +71,22 @@
 ## 效果预览
 ### 展开所有数据
 
-![](http://www.load-page.com/base/attachment/745/Image+4.png)
+![](/assets/Image+4[1].png)
 
 ### 选中之后（多选）
 
 多选会表现为类似于Tag的形态，
 
-![](http://www.load-page.com/base/attachment/744/Image+5.png)
+![](/assets/Image+5[1].png)
 
 ## 使用方法
 ### 单选
 ```
 <select id="role_id" name="role_id" class="form-control select-model" data-model="admin/role" data-id="{{id}}" data-text="{{display_name}}({{name}})" data-placeholder="请输入关键词..." value="<{$_data.role_id}>"></select>
-
 ```
 ### 多选
 ```
 <select id="role_ids" name="role_ids[]" class="form-control select-model" data-model="admin/role" data-id="{{id}}" data-text="{{display_name}}({{name}})" data-placeholder="请输入关键词..." value="<{$_data.role_ids|default:[]|implode:','}>" multiple="multiple"></select>
-
 ```
 
 # Suggest 联想
@@ -125,7 +133,7 @@
 
 	选中之后，显示在**文本框里面**的数据，可以和 data-text 不一样，可以写html
 
-	如果没有此字段，则和data-text展示的数据一样
+	如果没有此参数，则和data-text展示的数据一样
 
 - value="<{$_data.role_id}>"
 
@@ -134,6 +142,16 @@
 	初始化选中的值，多个值用`,`(英文逗号)分隔
 
 	> 注意：w3c规范中，select中并无此属性，此字段仅仅用于初始化时选中（selected="selected"）
+
+- data-params="{&quot;q&quot;:{&quot;something&quot;:{&quot;lk&quot;:&quot;abc&quot;}}}"
+	
+	此参数可以不设置
+	
+	附加参数，表示在请求`data-model`时附加的字段，必须为标准的JSON格式：
+	
+	`{"q": {"something": {"lk": "abc"}, "order": {"updated_at": "desc"}  }`
+	
+	`"` 引号需要使用 `&quot;` 转义
 	
 - data-placeholder=""
 	
@@ -147,10 +165,10 @@
 ### 模糊搜索：
 比如输入了：「测」，下面读取出两条测试结果
 
-![](http://www.load-page.com/base/attachment/741/Image+2.png)
+![](/assets/Image+2[1].png)
 
 ### 选中之后(单选)
-![](http://www.load-page.com/base/attachment/742/Image+3.png)
+![](/assets/Image+3[1].png)
 
 ## 使用方法
 ### 单选
@@ -199,7 +217,7 @@
 
 	选中之后，显示在**文本框里面**的数据，可以和 data-text 不一样，可以写html
 
-	如果没有此字段，则和data-text展示的数据一样
+	如果没有此参数，则和data-text展示的数据一样
 
 - value="<{$_data.role_id}>"
 
@@ -208,7 +226,18 @@
 	初始化选中的值，多个值用`,`(英文逗号)分隔
 
 	> 注意：w3c规范中，select中并无此属性，此字段仅仅用于初始化时选中（selected="selected"）
+
+- data-params="{&quot;q&quot;:{&quot;something&quot;:{&quot;lk&quot;:&quot;abc&quot;}}}"
 	
+	此参数可以不设置
+	
+	附加参数，表示在请求`data-model`时附加的字段，必须为标准的JSON格式：
+	
+	`{"q": {"something": {"lk": "abc"}, "order": {"updated_at": "desc"}  }`
+	
+	`"` 引号需要使用 `&quot;` 转义
+
+
 - data-placeholder=""
 	
 	用于select2的`placeholder`
@@ -219,3 +248,26 @@
 
 ## 效果预览 
 ### 展开所有数据
+![](/assets/Image 2.png)
+### 选中数据(多选)
+![](/assets/Image 3.png)
+
+## 使用方法
+### 单选
+```
+<select id="role_id" name="role_id" class="form-control tree-model" data-model="admin/role" data-id="{{id}}" data-text="{{display_name}}({{name}})" data-placeholder="请输入关键词..." value="<{$_data.role_id}>"></select>
+```
+### 多选
+```
+<select id="role_ids" name="role_ids[]" class="form-control tree-model" data-model="admin/role" data-id="{{id}}" data-text="{{display_name}}({{name}})" data-placeholder="请输入关键词..." value="<{$_data.role_ids|default:[]|implode:','}>" multiple="multiple"></select>
+```
+
+# 删除
+```
+$('.select-model').selectModel('destory');
+$('.suggest-model').suggestModel('destory');
+$('.tree-model').treeModel('destory');
+
+// 其实上文都是调用的select2的方法
+$('.tree-model,.suggest-model,.select-model').select('destory');
+```
