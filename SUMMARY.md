@@ -27,6 +27,6 @@
             * [关系数据调用](chapter-mvrc/chapter-model/关系数据调用.md)
     * [中间件 MIDDLEWARE](chapter-mvrc/中间件-middleware.md)
     * [架构思想](chapter-mvrc/架构思想.md)
-* [功能特性](功能特性.md)
+* [功能](功能.md)
     
 
