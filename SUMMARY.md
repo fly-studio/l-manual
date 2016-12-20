@@ -6,7 +6,7 @@
     * [安装L+](chapter-started/安装l.md)
     * [使用者的要求](chapter-started/使用者的要求.md)
     * [文件夹解释](chapter-started/文件夹解释.md)
-    * [插件](chapter-started/插件.md)
+    
 * [MVRC](chapter-mvrc.md)
     * [路由器 Route](chapter-mvrc/路由器-route.md)
     * [控制器 Controller](chapter-mvrc/控制器-controller.md)
@@ -27,6 +27,17 @@
             * [关系数据调用](chapter-mvrc/chapter-model/关系数据调用.md)
     * [中间件 MIDDLEWARE](chapter-mvrc/中间件-middleware.md)
     * [架构思想](chapter-mvrc/架构思想.md)
-* [功能](功能.md)
+* [功能](feature.md)
+    * [表单验证 Validation](chapter-feature/表单验证-validation.md)
+    * [快速后台 Backend](chapter-feature/快速后台-backend.md)
+    * [提示 Tips](chapter-feature/提示-tips.md)
+    * [分类 Catalogs](chapter-feature/分类-catalogs.md)
+* [插件 Plugins](plugins.md)
+* [API](api.md)
+* [模块](modal.md)
+    * [附件 Attachment](chapter-modal/附件-attachment.md)
+    * [微信 Wechat](chapter-modal/微信-wechat.md)
+* [中文搜索引擎](中文搜索引擎.md)
+
     
 
