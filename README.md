@@ -1,3 +1,7 @@
+本文档使用GitBook编写
+
+GitHub：https://github.com/fly-studio/l-manual
+
 # # 概述
 L+(L plus)，全称为Laravel+，顾名思义，这是Laravel框架的plus。
 L+诞生于2013年，最初是基于Kohana 3.3研发，现基于Laravel 5.3研发。
