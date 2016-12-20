@@ -34,10 +34,10 @@
     * [分类 Catalogs](chapter-feature/分类-catalogs.md)
 * [插件 Plugins](plugins.md)
 * [API](api.md)
-* [模块](modal.md)
+* [模块](module.md)
     * [附件 Attachment](chapter-modal/附件-attachment.md)
     * [微信 Wechat](chapter-modal/微信-wechat.md)
-* [中文搜索引擎](中文搜索引擎.md)
+* [中文搜索引擎](elastic.md)
 
     
 
