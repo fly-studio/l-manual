@@ -1,6 +1,9 @@
 本文档使用GitBook编写
 
-GitHub：https://github.com/fly-studio/l-manual
+阅读：https://www.load-page.com/manuals/
+
+issue：https://github.com/fly-studio/l-manual
+
 
 # # 概述
 L+(L plus)，全称为Laravel+，顾名思义，这是Laravel框架的plus。
