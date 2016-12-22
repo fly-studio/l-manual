@@ -11,6 +11,9 @@
         "editlink": {
             "base": "https://github.com/fly-studio/l-manual/blob/tree/master/",
             "label": "编辑本页"
+        },
+        "sitemap": {
+            "hostname": "https://www.load-page.com/"
         }
     },
     "styles": {
