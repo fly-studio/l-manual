@@ -9,7 +9,7 @@
             "base": "https://github.com/fly-studio/l-manual/",
             "label": "编辑本页"
         }
-    }
+    },
        
     "styles": {
         "website": "styles/website.css",
