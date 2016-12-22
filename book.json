@@ -1,6 +1,6 @@
 {
     "title" : "L+ 操作手册",
-    "plugins": ["disqus", "editlink", "comment", "page-toc"],
+    "plugins": ["disqus", "editlink", "comment", "page-toc", "sitemap"],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/fly-studio/l-manual/",
