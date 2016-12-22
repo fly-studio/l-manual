@@ -3,7 +3,7 @@
     "plugins": ["disqus", "editlink", "comment", "page-toc", "splitter", "sitemap"],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/fly-studio/l-manual/",
+            "url": "https://github.com/fly-studio/l-manual/"
         },
         "editlink": {
             "base": "https://github.com/fly-studio/l-manual/",
