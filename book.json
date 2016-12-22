@@ -1,6 +1,6 @@
 {
     "title" : "L+ 操作手册",
-    "plugins": ["comment", "page-toc"],
+    "plugins": ["disqus", "comment", "page-toc"],
     "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
