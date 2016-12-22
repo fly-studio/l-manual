@@ -1,6 +1,6 @@
 {
     "title" : "L+ 操作手册",
-    "plugins": ["disqus", "editlink", "comment", "page-toc", "splitter", "image-captions", "anchors", "sitemap", "chart"],
+    "plugins": ["disqus", "editlink", "comment", "page-toc", "splitter", "image-captions", "anchors", "sitemap", "chart", "mermaid"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "l-manual"
