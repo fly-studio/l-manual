@@ -93,9 +93,9 @@
         * [Artisan](chapter-module/chapter-tool/artisan.md)
         * [管理员工具](chapter-module/chapter-tool/管理员工具.md)
 * [第三方插件](third-party.md)
-    * [日志 Auditing](chapter-module/日志-auditing.md)
-        * [Model日志](chapter-module/chapter-logs/model.md)
-    * [第三方登录](chapter-plugins/第三方登录.md)
+    * [日志 Auditing](chapter-third-party/日志-auditing.md)
+        * [Model日志](chapter-third-party/chapter-logs/model.md)
+    * [第三方登录](chapter-third-party/第三方登录.md)
         * QQ
         * Wechat 微信
         * Weibo
