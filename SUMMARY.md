@@ -95,7 +95,6 @@
 * [第三方插件](third-party.md)
     * [日志 Auditing](chapter-module/日志-auditing.md)
         * [Model日志](chapter-module/chapter-logs/model.md)
-        
     * [第三方登录](chapter-plugins/第三方登录.md)
         * QQ
         * Wechat 微信
