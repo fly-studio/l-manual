@@ -64,6 +64,7 @@
 * [项目特性](feature.md)
     * [静态文件 Static](chapter-feature/静态文件-static.md)
     * [分类 Catalogs](chapter-feature/分类-catalogs.md)
+    * [操作日志 Log](chapter-feature/操作日志-log.md)
     * [快速后台 Backend](chapter-feature/快速后台-backend.md)
         * [路由、权限](chapter-feature/chapter-backend/路由.md)
         * [后台结构](chapter-feature/chapter-backend/后台结构.md)
