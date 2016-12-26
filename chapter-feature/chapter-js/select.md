@@ -13,7 +13,7 @@
 ## 模拟结构
 ```
 <select value="value">
-<option value="data-id">data-text</option>
+	<option value="data-id">data-text</option>
 </select>
 
 ```
@@ -94,7 +94,7 @@
 ## 模拟结构
 ```
 <select value="value">
-<option value="data-id">data-text</option>
+	<option value="data-id">data-text</option>
 </select>
 ```
 
@@ -187,10 +187,10 @@
 ## 模拟结构
 ```
 <select>
-<option value="data-id" >data-text</option>
-<option value="data-id" >│ ├ data-text</option>
-<option value="data-id" >│ └ data-text</option>
-<option value="data-id" >└ data-text</option>
+	<option value="data-id" >data-text</option>
+	<option value="data-id" >│ ├ data-text</option>
+	<option value="data-id" >│ └ data-text</option>
+	<option value="data-id" >└ data-text</option>
 </select>
 ```
 ## 必要参数
