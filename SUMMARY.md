@@ -9,6 +9,8 @@
 * [MVRC](mvrc.md)
     * [路由器 Route](chapter-mvrc/路由器-route.md)
     * [控制器 Controller](chapter-mvrc/控制器-controller.md)
+        * [控制器事件、广播](chapter-mvrc/chapter-controller/控制器事件-广播.md)
+
     * [视图 View](chapter-mvrc/视图-view.md)
     * [数据库 Model](chapter-mvrc/数据库-model.md)
         * [示例](chapter-mvrc/chapter-model/示例.md)
