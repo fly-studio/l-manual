@@ -9,7 +9,7 @@
 * [MVRC](mvrc.md)
     * [路由器 Route](chapter-mvrc/路由器-route.md)
     * [控制器 Controller](chapter-mvrc/控制器-controller.md)
-        * [控制器事件、广播](chapter-mvrc/chapter-controller/控制器事件-广播.md)
+        * [控制器事件、广播](chapter-addons/chapter-core/控制器事件-广播.md)
     * [视图 View](chapter-mvrc/视图-view.md)
     * [数据库 Model](chapter-mvrc/数据库-model.md)
         * [示例](chapter-mvrc/chapter-model/示例.md)
@@ -31,12 +31,14 @@
     * [核心 Core](chapter-addons/core.md)
         * [表单验证 Validation](chapter-addons/chapter-core/表单验证-validation.md)
         * [插件 Plugins](chapter-addons/chapter-core/plugins.md)
+        * [控制器事件、广播](chapter-addons/chapter-core/控制器事件-广播.md)
         * [提示 Tips](chapter-addons/chapter-core/提示-tips.md)
         * [API](chapter-addons/chapter-core/api.md)
             * [输入、输出 I/O](chapter-addons/chapter-core/chapter-api/输入-输出-i-o.md)
             * [加密](chapter-addons/chapter-core/chapter-api/加密.md)
             * [解密](chapter-addons/chapter-core/chapter-api/解密.md)
         * [X-Sendfile 下载](chapter-addons/chapter-core/x-sendfile.md)
+        * [PHP日志前端输出](chapter-addons/chapter-core/console-logs.md)
     * [中文搜索引擎](chapter-addons/elastic.md)
         * [安装Elastic](chapter-elastic/安装-elastic.md)
         * [Laravel-scout](chapter-elastic/laravel-scout.md)
@@ -85,7 +87,7 @@
 * [第三方插件](third-party.md)
     * [日志 Auditing](chapter-module/日志-auditing.md)
         * [Model日志](chapter-module/chapter-logs/model.md)
-        * [PHP日志输出](chapter-module/chapter-logs/model.md)
+        
     * [第三方登录](chapter-plugins/第三方登录.md)
         * QQ
         * Wechat 微信
