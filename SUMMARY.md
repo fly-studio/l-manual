@@ -37,7 +37,6 @@
             * [加密](chapter-addons/chapter-core/chapter-api/加密.md)
             * [解密](chapter-addons/chapter-core/chapter-api/解密.md)
         * [X-Sendfile 下载](chapter-addons/chapter-core/x-sendfile.md)
-
     * [中文搜索引擎](chapter-addons/elastic.md)
         * [安装Elastic](chapter-elastic/安装-elastic.md)
         * [Laravel-scout](chapter-elastic/laravel-scout.md)
@@ -87,7 +86,8 @@
     * [日志 Auditing](chapter-module/日志-auditing.md)
         * [Model日志](chapter-module/chapter-logs/model.md)
         * [PHP日志输出](chapter-module/chapter-logs/model.md)
-    * [第三方登录](chapter-plugins\第三方登录.md)
+    * [第三方登录](chapter-plugins/第三方登录.md)
         * QQ
         * Wechat 微信
         * Weibo
+
