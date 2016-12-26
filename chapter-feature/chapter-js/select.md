@@ -262,7 +262,7 @@
 <select id="role_ids" name="role_ids[]" class="form-control tree-model" data-model="admin/role" data-id="{{id}}" data-text="{{display_name}}({{name}})" data-placeholder="请输入关键词..." value="<{$_data.role_ids|default:[]|implode:','}>" multiple="multiple"></select>
 ```
 
-# 删除
+# 恢复控件为原生的SELECT
 ```
 $('.select-model').selectModel('destory');
 $('.suggest-model').suggestModel('destory');
