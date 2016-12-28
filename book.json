@@ -1,6 +1,6 @@
 {
     "title" : "L+ 操作手册",
-    "plugins": ["disqus", "editlink", "comment", "page-toc", "splitter", "image-captions",  "sitemap", "chart", "mermaid", "prism", "ace", "sectionx", "github-buttons", "include-codeblock", "anchor-navigation"],
+    "plugins": ["disqus", "editlink", "comment", "page-toc", "splitter", "image-captions",  "sitemap-general", "chart", "mermaid", "prism", "ace", "sectionx", "github-buttons", "include-codeblock", "anchor-navigation"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "l-manual"
@@ -12,8 +12,8 @@
             "base": "https://github.com/fly-studio/l-manual/blob/master/",
             "label": "编辑本页"
         },
-        "sitemap": {
-            "hostname": "https://www.load-page.com/manuals/l/"
+        "sitemap-general": {
+            "prefix": "https://www.load-page.com/manuals/l/"
         }
     },
     "styles": {
