@@ -2,11 +2,11 @@
 > 代码托管于作者自建的git服务器中
 > 关于GIT的安装和使用方法，请查看[「GIT使用手册」](http://git.help.load-page.com "「GIT使用手册」")
 
-建议将代码存放在 <code>$webroot/project/</code> 下
+建议将代码存放在 `$webroot/project/` 下
 ```
-$ git clone -b 5.3 http://git.load-page.com/r/laravel.git
-$ git clone -b 5.3 http://git.load-page.com/r/lpp.git l++
-$ git clone -b 5.3 http://git.load-page.com/r/lp.git project_name
+$ git clone -b 5.4 http://git.load-page.com/r/laravel.git
+$ git clone -b 5.4 http://git.load-page.com/r/lpp.git l++
+$ git clone -b 5.4 http://git.load-page.com/r/lp.git project_name
 $ git clone http://git.load-page.com/r/static.git
 ```
 请修改上文中的 project_name
